@@ -1,0 +1,35 @@
+.keyboard-container {
+    width: clamp(10%, 100%, 1200px)
+}
+
+.keyboard-grid {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, 100px);
+    gap: 10px;
+}
+
+.key {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-justify: inter-word;
+    border: 2px solid black;
+    font-size: 30px;
+    background-color: white;
+    border-radius: 5px;
+    aspect-ratio: 1/1;
+    cursor: pointer;
+}
+
+.correct {
+    color: rgb(102, 115, 220);
+    border: 2px solid rgb(102, 115, 220);
+    cursor: default;
+}
+
+.wrong {
+    color: rgb(255, 80, 80);
+    border: 2px solid rgb(255, 80, 80);
+    cursor: default;
+}

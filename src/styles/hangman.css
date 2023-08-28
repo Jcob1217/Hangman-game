@@ -1,0 +1,96 @@
+.hangman-container {
+    width: 300px;
+    position: relative;
+}
+
+.base {
+    height: 10px;
+    width: 300px;
+    background-color: black;
+}
+
+.pole {
+    height: 500px;
+    width: 10px;
+    margin-left: 145px;
+    background-color: black;
+}
+
+.top {
+    height: 10px;
+    width: 155px;
+    margin-left: 145px;
+    background-color: black;
+}
+
+.rope {
+    height: 80px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 10px;
+    background-color: black;
+}
+
+.head {
+    position: absolute;
+    top: 80px;
+    right: -40px;
+    height: 70px;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+    border: 10px solid black
+}
+
+.body {
+    height: 120px;
+    position: absolute;
+    top: 170px;
+    right: 0;
+    width: 10px;
+    background-color: black;
+}
+
+.left-arm {
+    height: 10px;
+    width: 100px;
+    position: absolute;
+    top: 180px;
+    right: 10px;
+    transform: rotate(-60deg);
+    transform-origin: right top;
+    background-color: black;
+}
+
+.right-arm {
+    height: 10px;
+    width: 100px;
+    position: absolute;
+    top: 180px;
+    right: -100px;
+    transform: rotate(60deg);
+    transform-origin: left top;
+    background-color: black;
+}
+
+.left-leg {
+    height: 10px;
+    width: 100px;
+    position: absolute;
+    top: 280px;
+    right: 10px;
+    transform: rotate(-60deg);
+    transform-origin: right top;
+    background-color: black;
+}
+
+.right-leg {
+    height: 10px;
+    width: 100px;
+    position: absolute;
+    top: 280px;
+    right: -100px;
+    transform: rotate(60deg);
+    transform-origin: left top;
+    background-color: black;
+}

@@ -1,0 +1,15 @@
+.result-container {
+    display: flex;
+    height: 6rem;
+    font-size: 32px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.won {
+    color: rgb(102, 115, 220);
+}
+
+.lost {
+    color: rgb(255, 80, 80);
+}
